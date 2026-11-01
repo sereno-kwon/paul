@@ -626,6 +626,9 @@ footer{background:var(--surface);padding-block:64px 40px;font-size:14px;line-hei
    라이프스타일 사진은 3:2 비율. 라벨과 아이브로우는 대문자 변환 없이 원문 대소문자로 씁니다.
    포인트 컬러는 폴의 퍼플 아노다이징에서 가져와 포커스 표시에만 아주 드물게 씁니다. */
 :root{--accent:#6b4ea2}
+/* 로고: 폴 공식 로고는 원형 배지(SVG)라 THM처럼 단색 필터를 쓰지 않고 그대로 둡니다 */
+.logo,.logo img{height:32px}
+.logo img{width:32px;filter:none!important}
 .rh{background:#101114}
 .shots .ph,.cell figure,.founder .pics figure{aspect-ratio:1/1;background:#fff}
 .shots img,.cell figure img,.founder .pics img{object-fit:contain;padding:7%}
@@ -685,7 +688,7 @@ table.size.fit td.l{text-align:left;white-space:normal;min-width:150px}
 <!-- ===== 헤더 ===== -->
 <header class="site" id="hd">
 <div class="container bar">
-<a aria-label="Paul Component home" class="logo" href="#top"><img alt="Paul Component Engineering" height="17" src="../images/logo.svg" width="85"/></a>
+<a aria-label="Paul Component home" class="logo" href="#top"><img alt="Paul Component Engineering" height="32" src="../images/logo.svg" width="32"/></a>
 <ul class="menu" id="menu">
 <li><a href="#brand">Paul</a></li>
 <li><a href="#klamper">Klamper</a></li>
